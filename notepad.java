@@ -6,6 +6,8 @@ import java.awt.event.*;
 import java.applet.Applet;
 import java.sql.*;
 
+// @author - Bhargav Joshi
+
 public class notepad extends KeyAdapter  implements ActionListener, KeyListener
 {
 	
@@ -256,7 +258,7 @@ public void actionPerformed(ActionEvent ae)
 JFileChooser chooser = new JFileChooser();
 	}
 }
-	
+// @author - Bhargav Joshi	
 public void keyTyped(KeyEvent ke){
 	cl= maintext.getText().length();
 	linecount = maintext.getLineCount();
